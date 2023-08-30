@@ -1,0 +1,22 @@
+{
+	"name": "potd",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "ts-node ./src/index.ts",
+		"format": "prettier --write ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^3.0.3",
+		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"discord.js": "^14.13.0",
+		"dotenv": "^16.3.1",
+		"ts-node": "^10.9.1"
+	}
+}
